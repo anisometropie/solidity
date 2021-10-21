@@ -1,4 +1,4 @@
-var Hero = artifacts.require("Hero");
+var Array = artifacts.require("Array");
 module.exports = function(deployer) {
-  deployer.deploy(Hero,"Hulk");
+  deployer.deploy(Array);
 };
