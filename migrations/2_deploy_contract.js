@@ -1,4 +1,4 @@
-var Array = artifacts.require("Array");
+var Contract = artifacts.require("Struct");
 module.exports = function(deployer) {
-  deployer.deploy(Array);
+  deployer.deploy(Contract, "Michou", 56, "Fire");
 };
